@@ -22,5 +22,6 @@ for sibling in soup.h1.next_siblings:
     print(sibling.name)
 
 #Previous Siblings list
+#Essential
 for sibling in soup.p.previous_siblings:
     print(sibling.name)
